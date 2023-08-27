@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*Header*/
+
+.container{
+    background-color: #F9E4B4;
+    width: auto;
+    height: 90px;
+}
+
+.logo{
+    width: 30%;
+}
+
+.header-line{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 68px;
+    align-items: center;
+}
+
+.nav{
+    width: 40%;
+    display: flex;
+}
+
+.nav a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Jomhuria', cursive;
+    margin-right: 30px;
+}
+
+.nav a:hover{
+    color: gray;
+    transition: all 0.3s ease;
+}
+
+
+.right-menu{
+    display: flex;
+}
+
+.right-menu a {
+    margin-right: 30px;
+}
+
+.header-title{
+    font-size: 30px;
+    font-family: 'Jomhuria', cursive;
+    text-align: center;
+    margin: 100px 60px;
+}
